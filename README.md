@@ -65,7 +65,7 @@ A portfolio of Analytics Engineering tools — building in public.
 |---|---|---|
 | [Zero-Copy Analytics Lakehouse](https://github.com/ATHARNAWAZ/ZERO_COPY_LAKEHOUSE) | DuckDB · Iceberg · dbt · MotherDuck | 🟡 In Progress |
 | [SQL Query Cost Analyzer](https://github.com/ATHARNAWAZ/sql-cost-analyzer) | FastAPI · React · Claude AI | 🟡 In Progress |
-| [dbt Lineage Explorer](https://github.com/ATHARNAWAZ/dbt-lineage-explorer) | NetworkX · React Flow · FastAPI | 🔜 Up Next |
+| [dbt Lineage Explorer](https://github.com/ATHARNAWAZ/dbt-lineage-explorer) | NetworkX · React Flow · FastAPI | ✅ Done |
 | [AE Interview Simulator](https://github.com/ATHARNAWAZ/analytics-engineer-simulator) | React · TypeScript · Claude AI | ✅ Done |
 
 ---
