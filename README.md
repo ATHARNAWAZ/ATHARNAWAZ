@@ -83,7 +83,7 @@ Occasionally arguing about star schemas.
 
 | Project | Stack | Status |
 |---|---|---|
-| [Pipeline Doctor](https://github.com/ATHARNAWAZ/pipeline-doctor) | Python · FastAPI · Claude AI · LlamaIndex · AWS Lambda · React | 🔨 Building |
+| [Pipeline Doctor](https://github.com/ATHARNAWAZ/pipeline-doctor) | Python · FastAPI · Claude AI · LlamaIndex · AWS Lambda · React | ✅ Done |
 | [DataLex](https://github.com/ATHARNAWAZ/data-lex) | Python · Claude AI · AWS Glue · Athena · Terraform · React | 🔨 Building |
 | [Zero-Copy Analytics Lakehouse](https://github.com/ATHARNAWAZ/zero-copy-lakehouse) | DuckDB · dbt · Apache Iceberg · MotherDuck · Evidence.dev | ✅ Done |
 | [dbt Lineage Explorer](https://github.com/ATHARNAWAZ/dbt-lineage-explorer) | NetworkX · React Flow · FastAPI · Claude AI | ✅ Done |
