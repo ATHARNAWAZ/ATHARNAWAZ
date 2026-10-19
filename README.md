@@ -1,6 +1,6 @@
 # Ather Nawaz
 
-Senior Data Engineer and Analytics Engineer based in Ingolstadt, Germany.
+Senior AI Data Engineer and Analytics Engineer based in Ingolstadt, Germany.
 Building data pipelines, GDPR-compliant analytics platforms, AI-powered
 data tooling, and modern lakehouse architectures.
 
