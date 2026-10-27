@@ -1,129 +1,46 @@
 # Ather Nawaz
 
-Senior AI Data Engineer and Analytics Engineer based in Ingolstadt, Germany.
-Building data pipelines, GDPR-compliant analytics platforms, AI-powered
-data tooling, and modern lakehouse architectures.
+**AI Data Engineer in Ingolstadt, Germany.** I build data systems that catch their own failures and explain them.
 
-6 years across data engineering, BI, and software development.
-Python, SQL, dbt, Snowflake, Databricks, Apache Iceberg.
-Occasionally arguing about star schemas.
+- **In production (SCA Logistics & Fulfilment, since 2019):** I designed and run the company's whole data platform: Azure Data Factory, ADLS Gen2, Databricks with Delta Lake, PySpark, dbt and Unity Catalog, about 300,000 records a day. Statistical anomaly detection and alerting catch problems before anyone opens a report: no silent pipeline failures since 2022.
+- **In my own open-source work:** LLM systems on top of data. Retrieval, lineage and guardrails, because the data an LLM is given is where most AI problems start.
 
----
-
-![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Data%20Engineer%20%7C%20Analytics%20Engineer%20%7C%20Data%20Platform%20Engineer-brightgreen?style=flat-square)
-![Location](https://img.shields.io/badge/Location-Ingolstadt%2C%20Germany-blue?style=flat-square)
-![Experience](https://img.shields.io/badge/Experience-6%2B%20Years-orange?style=flat-square)
+🌐 [atharnawaz.github.io](https://atharnawaz.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/atharnawaz) · ✉️ atharnawaz@live.com
 
 ---
 
-## 🛠 Tech Stack
+## Featured work
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-**Data Engineering**
-
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-0A7BC8?style=flat-square&logo=apacheiceberg&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694A?style=flat-square&logo=dbt&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD8?style=flat-square&logoColor=white)
-
-**Warehouses & Platforms**
-
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![MotherDuck](https://img.shields.io/badge/MotherDuck-FFF000?style=flat-square&logo=duckdb&logoColor=black)
-![Amazon Redshift](https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white)
-
-**BI & Visualization**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Evidence](https://img.shields.io/badge/Evidence.dev-1A1A2E?style=flat-square&logoColor=white)
-
-**AI & ML**
-
-![Claude AI](https://img.shields.io/badge/Claude%20AI-D97706?style=flat-square&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-6D28D9?style=flat-square&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Dev & Infra**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
----
-
-## 🎓 Certifications
-
-| Certification | Issuer | Status |
+| Project | What it does | Stack |
 |---|---|---|
-| [Databricks Fundamentals Accreditation](https://credentials.databricks.com/6640237a-cbe5-4f1c-a55f-c011602e69e6) | Databricks | ✅ March 2026 |
-| Databricks Data Engineer Associate | Databricks | 🔄 In Progress |
-| dbt Analytics Engineering Certification | dbt Labs | 🔄 In Progress |
-| Snowflake SnowPro Core | Snowflake | 🔄 In Progress |
-| AWS Data Engineer Associate | AWS | 🔜 Planned |
+| [**Pipeline Doctor**](https://github.com/ATHARNAWAZ/pipeline-doctor) | Reads a failed dbt run, traces the lineage, retrieves the relevant SQL with RAG and explains the root cause in plain English. Optional Slack alerts via AWS Lambda. | FastAPI, NetworkX, LlamaIndex, pgvector, LLM API, React |
+| [**Meridian**](https://github.com/ATHARNAWAZ/meridian) | Real-time e-commerce analytics: event-time watermarks, late events, exactly-once into Iceberg, Flink CEP fraud detection. One `make demo`. | Kafka + Avro, Flink, Iceberg, dbt, DuckDB, Prometheus, Grafana |
+| [**quarantine-dq**](https://github.com/ATHARNAWAZ/quarantine-dq) | Bad records are quarantined with their failure reason and replayed after a fix, instead of crashing the pipeline or disappearing. 82 tests. | Python, DuckDB/Postgres, pandas/Spark/Airflow/dbt adapters |
+| [**dbt-contracts**](https://github.com/ATHARNAWAZ/dbt-contracts) | LLM-generated data contracts for every dbt model, enforced on each PR by a GitHub Action. [Live app](https://dbt-contracts.vercel.app) | FastAPI, React, LLM API, GitHub Actions |
+| [**dbt Lineage Explorer**](https://github.com/ATHARNAWAZ/dbt-lineage-explorer) | Interactive DAG with column-level lineage and an AI impact analysis before you ship. [Live app](https://dbt-lineage-explorer.vercel.app) | NetworkX, React Flow, FastAPI |
+| [**BookWorm Data Platform**](https://github.com/ATHARNAWAZ/bookworm-data-platform) | Medallion lakehouse on Azure Databricks over 2.3M books and 15.7M reviews. | Databricks, Delta Lake, dbt, Unity Catalog |
 
 ---
 
-## 🔨 Currently Building
+## Tools, sorted honestly
 
-| Project | Stack | Status |
-|---|---|---|
-| [Pipeline Doctor](https://github.com/ATHARNAWAZ/pipeline-doctor) | Python · FastAPI · Claude AI · LlamaIndex · AWS Lambda · React | ✅ Done |
-| [DataLex](https://github.com/ATHARNAWAZ/data-lex) | Python · Claude AI · AWS Glue · Athena · Terraform · React | 🔨 Building |
-| [Zero-Copy Analytics Lakehouse](https://github.com/ATHARNAWAZ/zero-copy-lakehouse) | DuckDB · dbt · Apache Iceberg · MotherDuck · Evidence.dev | ✅ Done |
-| [dbt Lineage Explorer](https://github.com/ATHARNAWAZ/dbt-lineage-explorer) | NetworkX · React Flow · FastAPI · Claude AI | ✅ Done |
-| [AE Interview Simulator](https://github.com/ATHARNAWAZ/analytics-engineer-simulator) | React · TypeScript · Claude AI · Recharts | ✅ Done |
-| [SQL Query Cost Analyzer](https://github.com/ATHARNAWAZ/sql-cost-analyzer) | FastAPI · React · TypeScript · Claude AI | 🔄 In Progress |
+**Every day in production:** Python · SQL · PySpark · dbt · Databricks · Delta Lake · Unity Catalog · Azure Data Factory · ADLS Gen2 · SQL Server · Power BI · GitHub Actions · Docker · FastAPI
+
+**AI, in my projects:** RAG · embeddings · pgvector · LlamaIndex · LangChain · LLM APIs (OpenAI, Anthropic) · MCP
+
+**Data, in my projects:** Kafka · Flink · Apache Iceberg · DuckDB · Airflow · Dagster · Snowflake · AWS (S3, Glue, Athena, Lambda) · Prometheus · Grafana · Terraform
 
 ---
 
-## 📊 Stats
+## Certifications
 
-![Ather's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ATHARNAWAZ&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ATHARNAWAZ&layout=compact&theme=dark&hide_border=true&langs_count=8)
-
----
-
-## 🧠 What I Actually Do
-
-- Build and maintain ELT/ETL pipelines that move data from messy source
-  systems into clean, tested, documented models using dbt and Python
-- Design star schema and medallion architecture data models that keep
-  "revenue" meaning the same thing across every dashboard
-- Build AI-powered data tooling — pipeline debuggers, GDPR compliance
-  checkers, cost monitors, observability layers
-- Handle GDPR/DSGVO compliance across data pipelines — PII classification,
-  retention policies, audit trails
-- Deploy serverless data infrastructure on AWS using Terraform and
-  GitHub Actions CI/CD
-- Recently obsessed with: DuckDB, Apache Iceberg, RAG pipelines for
-  data engineering, and the idea that you shouldn't need a $50k/month
-  warehouse to query a lot of data
+| Certification | Status |
+|---|---|
+| [Databricks Fundamentals](https://credentials.databricks.com/6640237a-cbe5-4f1c-a55f-c011602e69e6) | ✅ March 2026 |
+| Databricks Data Engineer Associate | In progress |
+| dbt Analytics Engineering | In progress |
+| Snowflake SnowPro Core | In progress |
 
 ---
 
-## 📬 Find Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-atharnawaz-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/atharnawaz)
-[![Email](https://img.shields.io/badge/Email-ATHARNAWAZ%40LIVE.COM-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ATHARNAWAZ@LIVE.COM)
-[![Databricks Cert](https://img.shields.io/badge/Databricks-Fundamentals%20Certified-FF3621?style=flat-square&logo=databricks&logoColor=white)](https://credentials.databricks.com/6640237a-cbe5-4f1c-a55f-c011602e69e6)
-
-Open to Data Engineer, Analytics Engineer, and Data Platform Engineer
-roles in Germany, Switzerland, and Austria (DACH).
-Remote or Ingolstadt/Munich area. EU passport. 3 months notice.
+Open to permanent **AI Data Engineer** and **Senior Data Engineer** roles in Munich, remote in Germany, or with relocation. German citizen. English C2, German B1 (telc).
